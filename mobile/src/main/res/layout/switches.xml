@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <Switch
+        android:id="@+id/green_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="GREEN" />
+
+    <Switch
+        android:id="@+id/red_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/green_switch"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:text="RED" />
+
+    <Switch
+        android:id="@+id/yellow_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/red_switch"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:text="YELLOW" />
+
+    <Switch
+        android:id="@+id/skeleton_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yellow_switch"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:text="SKELTON" />
+</RelativeLayout>
